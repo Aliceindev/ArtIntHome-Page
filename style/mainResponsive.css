@@ -1,0 +1,286 @@
+@media (max-width: 3840px) {}
+
+@media (max-width: 2160px) {
+
+    .textArea {
+        font-size: 25px;
+        margin-top: 5%;
+    }
+
+    .conteudoMVV {
+        margin-top: -500px;
+    }
+
+    .conteudo-text {
+        width: 900px;
+        height: auto;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 900px) {
+    .about-all {
+        margin-top: 15vw;
+        margin-bottom: 30vw;
+        height: 200vh;
+    }
+
+    .carousel-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slide-about {
+        width: 350px;
+        height: 440px;
+        background-color: none;
+        margin-block: 3vw;
+    }
+
+    .portfolio-all {
+        margin-top: 15vw;
+        margin-bottom: 30vw;
+        height: 200vh;
+    }
+
+    .carousel-portfolio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slide {
+        width: 350px;
+        height: 440px;
+        border: 3px solid var(--gRoot-lightPink);
+        background-color: none;
+        margin-block: 3vw;
+    }
+
+    .slide-texto-about {
+        font-size: 19px;
+        padding: 20px 30px;
+    }
+
+    .aboutSubTittle {
+        font-size: 23px;
+    }
+
+    .carousel-portfolio p {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .carousel-portfolio a {
+        padding: 12px;
+        font-size: 23px;
+    }
+
+    .carousel-portfolio a:hover {
+        transition: 0.5s;
+        color: black;
+    }
+
+    .imgSlide {
+        margin-top: 15px;
+        width: 300px;
+        height: 190px;
+        max-width: 100%;
+    }
+
+    .subTitlePortfolio {
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bodyMainColor {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .navbar img {
+        width: 60px;
+        height: 45px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+
+    .navbar ul li a {
+        display: none;
+    }
+
+    .subTitle {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 5vw;
+        width: 80vw;
+    }
+
+    .text-subTitle {
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .mainContent2 {
+        display: none;
+    }
+
+    .mainContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75vw;
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+/*----------------------------/
+/                             /
+/       DIV/PORTFOLIO         /
+/                             /
+/----------------------------*/
+
+    .portfolio-all {
+        margin-top: 40vh;
+    }
+
+/*-----------------------/
+/                        /                        
+/      DIV/SERVICES      /
+/                        /
+/-----------------------*/
+
+    .content-services {
+        margin-top: 20vw;
+        text-align: center;
+    }
+
+    .subTittleServices{
+        margin-top: 60px;
+        font-size: 38px;
+        width: 85%
+    }
+
+    .cardTittle {
+        margin-top: 20px;
+        margin-bottom: -40px;
+        font-size: 30px;
+        width: 70%
+    }
+
+    .cardView {
+        margin: 50px;
+        width: 280px;
+    }
+
+    .card-servicesDiviceUp {
+        display: grid;
+        padding: 10;
+    }
+
+/* /---------------------/
+/                        /                        
+/       DIV/CONTATO      /
+/                        /
+/------------------------/ */
+
+    .inputContainer {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputGroup {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 1em 0 1em 0;
+        width: 80vw;
+        position: relative;
+    }
+
+    .btnContratar {
+        margin-bottom: 20px;
+    }
+
+    /*---------------------------/
+    /                            /
+    /         Div Footer         /
+    /                            /
+    /---------------------------*/
+
+    .footer {
+        display: grid;
+        height: 100%;
+    }
+
+    .footer-left {
+        width: 300px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 80px;
+        display: block;
+        color: var(--gRoot-colorBase);
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .footer-center {
+        width: 100px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 80px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        width: 80%;
+        height: 80%;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    .footer-right p {
+        width: 100%;
+        margin-top: 15px;
+        color: var(--gRoot-colorBase);
+        font-weight: lighter;
+        font-family: Poppins;
+        font-size: 16px;
+    }
+
+    .button-footer {
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+}

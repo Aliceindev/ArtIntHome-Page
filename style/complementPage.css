@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Niramit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width:1.5vh;
+    height: 1vh;
+
+}
+::-webkit-scrollbar-track {
+    background: var(--gRoot-colorBase);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--gRoot-greyFooter);
+}
+
+:root {
+
+    /* /---------------------/
+    /                        /                        
+    /          COLORS        /
+    /                        /
+    /------------------------/ */
+
+    --gRoot-lightPink: #F03269;
+    --gRoot-midGrey:#D9D9D9;
+    --gRoot-greyFooter: #181B20;
+    --gRoot-lightGrey: #DFDFDF;
+    --gRoot-greySub: #20242A;
+    --gRoot-colorBase: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+    /* /---------------------/
+    /                        /                        
+    /          MENU          /
+    /                        /
+    /------------------------/ */
+
+/* Adicione isso ao seu CSS */
+body {
+    overflow-x: hidden;
+}
+
+.navbar.scrolled::before,
+.navbar.scrolled::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--gRoot-lightPink), transparent);
+}
+
+.navbar.scrolled::before {
+    top: 0;
+}
+
+.navbar.scrolled::after {
+    bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    background-color: var(--gRoot-colorBase);
+    z-index: 1000; 
+    border: 1px ;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar img{
+    width: 60px;
+    height: 45px;
+    margin-right: 95px;
+    margin-top: -10px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.text-nav{
+    margin-right: 95px;
+}
+
+.navbar ul li a:hover{
+    color: var(--gRoot-lightPink);
+    font-weight: 500;
+}
+
+.button{
+    margin-top: 2vh;
+}
+
+.btn-footer{
+    border: none;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--gRoot-colorBase);
+    background-color: var(--gRoot-lightPink);
+    cursor: pointer;
+}
+
+.btn-footer:hover{
+    background-color: transparent;
+    border: solid 1px var(--gRoot-lightPink);
+    color: var(--gRoot-lightPink);
+    letter-spacing: 0.4px;
+    transition: 0.9s;
+}
+
+
+.home{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.leftContainer{
+   padding: 5vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightContainer{
+    width: 50vw;
+}
+
+.generalContainer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.infosContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.moreInfosContainer{
+    background-color: var(--gRoot-greySub);
+    padding: 3vw;
+    border-radius: 30px;
+    width: 40vw
+}
+
+.text-base-white{
+    color: var(--gRoot-colorBase);
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+}
+
+.text-base{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    width: 50vw
+}
+
+.title-grey{
+    margin-top: 20px;
+    color: #181B20;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+    font-size: 5vw;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.title-pink{
+    color: #F03269;
+}
+
+li{
+    color: #FFFFFF;
+}
+
+.imgElement{
+    width: 680px;
+    margin-left: -9vw;
+    margin-top: -4.6vh;
+}
+
+.footer{
+    width: 100%;
+    height: 441px;
+    background-color: var(--gRoot-greyFooter);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Poppins;
+}
+
+.footer-left{
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 80px;
+    display: block;
+    color:var(--gRoot-colorBase);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.icons-footer{
+    width: 27px;
+    height: 27px;
+}
+
+.footer-left span{
+    color: var(--gRoot-lightPink);
+    font-weight: 800;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes a{
+    color: var(--gRoot-colorBase);
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+.center-redes{
+    display: flex;
+    padding: 15px 10px 0 0;
+}
+
+.info-redes{
+    padding-top: 3px;
+    padding-left: 12px;
+}
+
+.info-redes:hover{
+    color: var(--gRoot-lightPink);
+}
+
+
+.footer-center{
+    width: 350px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-center span{
+    color: var(--gRoot-colorBase);
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 25px;
+}
+
+.nav-footer{
+    color: var(--gRoot-colorBase);
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 12px;
+    width: 30%;
+}
+
+.nav-footer p:hover{
+    color: var(--gRoot-lightPink);
+    font-weight: 400;
+}
+
+.footer-right{
+    width: 360px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.footer-right span{
+    color: var(--gRoot-colorBase);
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+.footer-right p{
+    margin-top: 15px;
+    color: var(--gRoot-colorBase);
+    font-weight: lighter;    
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+#hardImg{
+    width: 42vw;
+    margin-left: -10vw;
+    margin-top: 6vh;
+}
+
+#consulImg{
+    width: 55vw;
+    margin-left: -10vw;
+    margin-top: -5vh;
+}
+
+#webImg{
+    margin-top: 15vh;
+    margin-left: -9vw;
+}
