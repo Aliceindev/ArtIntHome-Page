@@ -1,4 +1,4 @@
-# ArtInt Home Page  
+# ArtInt Home
 A project focused on providing an innovative and integrated solution for home automation using artificial intelligence. This system simplifies daily household routines through advanced and personalized technologies, promoting comfort, security, and efficiency.  
 
 
