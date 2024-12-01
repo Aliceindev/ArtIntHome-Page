@@ -1,7 +1,6 @@
 # ArtInt Home Page  
 A project focused on providing an innovative and integrated solution for home automation using artificial intelligence. This system simplifies daily household routines through advanced and personalized technologies, promoting comfort, security, and efficiency.  
 
----
 
 ## 🎯 **Project Objective**  
 This project aims to create a platform that allows users to manage smart devices in their homes centrally. The homepage features an intuitive interface for:  
@@ -10,7 +9,6 @@ This project aims to create a platform that allows users to manage smart devices
 - Integration of reports to track energy efficiency and automation.  
 - Implementation of real-time alerts and notifications for enhanced security.  
 
----
 
 ## 🛠 **Required Tools**  
 1. **Code Editor**: Visual Studio Code  
@@ -19,9 +17,6 @@ This project aims to create a platform that allows users to manage smart devices
 5. **Deployment Platform**: Visual Studio Code
 6. **Version Control**: GitHub  
 
----
 
 ## 🚀 **Project Images**  
 
-
----
